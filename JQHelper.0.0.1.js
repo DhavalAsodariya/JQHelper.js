@@ -1,20 +1,19 @@
+//============================================ $(document).ready
+function doc_ready(func) {$( document ).ready(func);}
 
 //============================================  val/html
-
 // GET/SET VALUES
-function getval(ObjectName){return $(ObjectName).val();}
-function setval(ObjectName, Values){$(ObjectName).val(Values);}
+function getval(obj) {return $(obj).val();}
+function setval(obj, val) {$(obj).val(val);}
 
 // GET/SET HTML
-function gethtml(ObjectName) {return $(ObjectName).html();}
-function sethtml(ObjectName, Html) {$(ObjectName).append(Html);}
+function gethtml(obj) {return $(obj).html();}
+function sethtml(obj, html) {$(obj).append(html);}
 
 //=========================================== hide/show
-
-function hide(ObjectName){$(ObjectName).hide();}
-function show(ObjectName){$(ObjectName).show();}
+function hide(obj) {$(obj).hide();}
+function show(obj) {$(obj).show();}
 
 //=========================================== click/load
-
-function click(ObjectName, callfunction){$( ObjectName).click(callfunction);}
-function load(ObjectName,URL){$( ObjectName).load(URL);}
+function click(obj, func) {$(obj).click(func);}
+function load(obj, url) {$(obj).load(url);}
