@@ -4,7 +4,7 @@
 // GET/SET VALUES
 function val(ObjectName, Values)
 {    
-	if(Values == "")
+	if(Values == '')
 	{
 		return $(ObjectName).val();
 	}
@@ -15,7 +15,7 @@ function val(ObjectName, Values)
 
 // GET/SET HTML
 function html(ObjectName, Html) {
-	if(Html == "")
+	if(Html == '')
 	{
 		return $(ObjectName).html();
 	}
