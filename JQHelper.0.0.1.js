@@ -11,16 +11,10 @@ function sethtml(ObjectName, Html) {$(ObjectName).append(Html);}
 
 //=========================================== hide/show
 
-// Hide in document
 function hide(ObjectName){$(ObjectName).hide();}
-
-// Show in document
 function show(ObjectName){$(ObjectName).show();}
 
 //=========================================== click/load
 
-// Object Click Event
 function click(ObjectName, callfunction){$( ObjectName).click(callfunction);}
-
-// Object Load Event
 function load(ObjectName,URL){$( ObjectName).load(URL);}
